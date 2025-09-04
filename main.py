@@ -3,11 +3,12 @@ import glob
 from analyzer import analyze_email
 from utils import clear_screen
 import os # Import os to check for the api key file
+import streamlit as st
 
 def get_api_key():
     """Reads the API key from api_key.txt."""
-    if os.path.exists('api_key.txt'):
-        with open('api_key.txt', 'r') as f:
+    if os.path.exists('.streamlit/secrets.toml'):
+        with open('.streamlit/secrets.toml', 'r') as f:
             return f.read().strip()
     return None
 

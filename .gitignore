@@ -130,6 +130,8 @@ venv.bak/
 
 # API Key file
 api_key.txt
+.streamlit/secrets.toml
+
 
 # Personal email files
 *.eml
