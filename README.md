@@ -75,7 +75,16 @@ pip install -r requirements.txt
 ```
 
 ### 3. Add Your API Key
-Create a file named `api_key.txt` in the root of the project folder and paste your Google Web Risk API key into it.
+Create the `.streamlist` folder & `secrets.toml` file
+```bash
+mkdir -p .streamlit
+nano .streamlit/secrets.toml
+```
+Add your secret inside
+```bash
+[api]
+google_web_risk = "YOUR_API_KEY_HERE"
+```
 
 ### 4. Run the Application
 You can run either the web application or the command-line tool.
