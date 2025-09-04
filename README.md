@@ -1,6 +1,6 @@
 # 🕵️ Phishing Email Analyzer
 
-An intelligent tool designed to analyze email files (`.eml`) to detect signs of phishing. The analyzer uses a multi-layered approach, combining heuristic-based checks with external API integrations to provide a comprehensive risk score. The project features both a command-line interface (CLI) and a user-friendly web application built with Streamlit.
+A tool designed to analyze email files (`.eml`) to detect signs of phishing. The analyzer uses a multi-layered approach, combining algorithms checks with external API integrations to provide a comprehensive risk score. The project features both a command-line interface (CLI) and a user-friendly web application built with Streamlit.
 
 ## Demo
 
