@@ -104,12 +104,12 @@ python main.py
 The project is organized into modular files for better readability and maintenance:
 ```
 PhishingAnalyzer/
-├── app.py              # Main Streamlit web application
-├── main.py             # Original Command-Line Interface (CLI)
-├── analyzer.py         # Core analysis engine and parsing logic
-├── checks.py           # All individual analysis functions (modules)
-├── utils.py            # Helper functions (e.g., clear_screen)
-├── requirements.txt    # Project dependencies
-├── api_key.txt         # Stores the Google Web Risk API key
-└── screenshot.png      # Demo image for the README
+├── app.py                          # Main Streamlit web application
+├── main.py                         # Original Command-Line Interface (CLI)
+├── analyzer.py                     # Core analysis engine and parsing logic
+├── checks.py                       # All individual analysis functions (modules)
+├── utils.py                        # Helper functions (e.g., clear_screen)
+├── requirements.txt                # Project dependencies
+├── .streamlit/secrets.toml         # Stores the Google Web Risk API key
+└── screenshot.png                  # Demo image for the README
 ```
