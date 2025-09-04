@@ -5,8 +5,8 @@ from analyzer import analyze_email_from_string
 
 def get_api_key():
     """Reads the API key from api_key.txt."""
-    if os.path.exists('api_key.txt'):
-        with open('api_key.txt', 'r') as f:
+    if os.path.exists('.streamlit/secrets.toml'):
+        with open('.streamlit/secrets.toml', 'r') as f:
             return f.read().strip()
     return None
 
