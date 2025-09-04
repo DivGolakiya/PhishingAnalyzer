@@ -4,7 +4,9 @@ An intelligent tool designed to analyze email files (`.eml`) to detect signs of 
 
 ## Demo
 
-![Phishing Analyzer Screenshot](screenshot.png)
+![Phishing Analyzer Screenshot 1](Screenshot_1.png)
+![Phishing Analyzer Screenshot 2](Screenshot_2.png)
+![Phishing Analyzer Screenshot 3](Screenshot_3.png)
 
 ---
 
