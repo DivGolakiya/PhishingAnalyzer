@@ -23,7 +23,7 @@ st.write("Upload an `.eml` file or paste the full email source below to analyze 
 # --- API Key Handling ---
 api_key = get_api_key()
 if not api_key:
-    st.warning("`api_key.txt` not found. The Google Web Risk URL reputation check will be skipped.", icon="⚠️")
+    st.warning("API key not found. The Google Web Risk URL reputation check will be skipped.", icon="⚠️")
 
 # --- UI Elements ---
 # NEW: File uploader for .eml files

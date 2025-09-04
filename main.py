@@ -22,7 +22,7 @@ def run_interactive_mode():
     # Read the API key once at the start
     api_key = get_api_key()
     if not api_key:
-        print("\n⚠️ WARNING: api_key.txt not found. URL reputation check will be skipped.")
+        print("\n⚠️ WARNING: API key not found. URL reputation check will be skipped.")
     
     while True:
         # ... (the menu logic is the same as before) ...
