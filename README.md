@@ -104,4 +104,3 @@ PhishingAnalyzer/
 ├── api_key.txt         # Stores the Google Web Risk API key
 └── screenshot.png      # Demo image for the README
 ```
-
