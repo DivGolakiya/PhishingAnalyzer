@@ -91,7 +91,7 @@ python main.py
 ## Project Structure
 
 The project is organized into modular files for better readability and maintenance:
-```bash
+```
 PhishingAnalyzer/
 ├── app.py              # Main Streamlit web application
 ├── main.py             # Original Command-Line Interface (CLI)
