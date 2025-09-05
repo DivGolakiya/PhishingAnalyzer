@@ -1,4 +1,3 @@
-# main.py
 import glob
 from analyzer import analyze_email
 from utils import clear_screen

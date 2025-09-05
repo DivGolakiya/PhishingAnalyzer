@@ -1,4 +1,3 @@
-# analyzer.py
 import email
 from email.header import decode_header
 from bs4 import BeautifulSoup

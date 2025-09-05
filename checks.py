@@ -1,4 +1,3 @@
-# checks.py
 from email.utils import parseaddr
 from urllib.parse import urlparse, unquote, parse_qs
 from datetime import datetime

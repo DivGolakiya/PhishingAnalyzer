@@ -1,4 +1,3 @@
-# app.py
 import streamlit as st
 import os
 from analyzer import analyze_email_from_string
