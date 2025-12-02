@@ -89,5 +89,4 @@ def analyze_email_from_file(eml_file_path, api_key):
     print("\n--- 📝 Body Text Snippet ---")
     print(results['body_snippet'])
 
-# Rename the old function to avoid confusion
 analyze_email = analyze_email_from_file
