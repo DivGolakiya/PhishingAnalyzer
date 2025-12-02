@@ -24,7 +24,6 @@ def run_interactive_mode():
         print("\n⚠️ WARNING: API key not found. URL reputation check will be skipped.")
     
     while True:
-        # ... (the menu logic is the same as before) ...
         print("\n" + "="*50)
         eml_files = sorted(glob.glob('*.eml'))
         if not eml_files:
